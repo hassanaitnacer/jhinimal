@@ -1,0 +1,115 @@
+{
+  "validation": {
+    "required": "This field is required",
+    "passwordsDoNotMatch": "Passwords do not match",
+    "email": "Email address is not valid"
+  },
+  "labels": {
+    "home": "Home",
+    "signInToYourAccount": "Sign in to your account",
+    "provideYourCredentialsBelow": "Provide your credentials below",
+    "username": "Username",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "signIn": "Sign in",
+    "profile": "Profile",
+    "settings": "Settings",
+    "signOut": "Sign out",
+    "search": "Search",
+    "newResource": "New",
+    "resourcesList": "{{resources}} list",
+    "name": "Name",
+    "rowsSelected_one": "A row selected",
+    "rowsSelected_other": "{{count}} rows selected",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "editResource": "Edit",
+    "save": "Save",
+    "pageNotFound": "Page not found",
+    "goBackToPreviousPage": "Go back",
+    "user_one": "User",
+    "user_other": "Users",
+    "administration_one": "Administration",
+    "administration_other": "Administrations",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "activated": "Activated",
+    "banned": "Banned",
+    "status": "Status",
+    "authority_one": "Authority",
+    "authority_other": "Authorities",
+    "admin_one": "Admin",
+    "admin_other": "Admins",
+    "email": "Email",
+    "language_one": "Language",
+    "language_other": "Languages",
+    "enLangKey": "English",
+    "frLangKey": "French",
+    "arLangKey": "Arabic",
+    "allowed": "Allowed",
+    "maxSizeOf": "Max size of {{size}}",
+    "change": "Change",
+    "upload": "Upload",
+    "resetPassword": "Reset password",
+    "newPassword": "New password",
+    "resetYourPassword": "Reset your password",
+    "provideYourNewPasswordBelow": "Provide your new password below",
+    "passwordConfirmation": "Password confirmation",
+    "send": "Send",
+    "forgotYourPasswordQuestion": "Forgot your password?",
+    "checkYourInbox": "Check your inbox"
+  },
+  "texts": {
+    "foolProgrammersQuote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "sorryPageNotFound": "Sorry, the page is not found!",
+    "sorryWeCouldNotFindPage": "Sorry, we couldn't find the page you’re looking for. Perhaps you've mistyped the URL? Be sure to check your spelling.",
+    "areYouSureAboutThis": "Are you sure about this?",
+    "undoneActionWarning": "You one step away of performing an action that can't be undone.",
+    "nothingToDisplay": "Nothing to display!",
+    "couldNotConnectMakeSureConnectedToInternet": "We couldn't connect to the server. Make sure you are connected to the Internet.",
+    "noResult": "No result!",
+    "searchDidNoMatchAnyRecords": "Your search did not match any records.",
+    "dataTableIsEmpty": "Empty data table!",
+    "nothingToDisplayTryAdding": "There is nothing to display for this entity. Try adding a new record.",
+    "bannedUserCanNotSignIn": "A banned user can't sign in.",
+    "pleaseEnterEmailAssociatedWeWillEmailYou": "Please enter the email address associated with your account and we will email you a link to reset your password.",
+    "ifYouHaveNotReceivedCheckSpamOrResend": "If you haven't received anything, please check spam or <1>resend the link again.</1>"
+  },
+  "http": {
+    "success": {
+      "signIn": "Welcome back!",
+      "addUser": "User added successfully.",
+      "updateUser": "User saved successfully.",
+      "deleteUser": "User deleted successfully.",
+      "resetPassword": "Password reset successfully.",
+      "requestResetPassword": "Link sent successfully.",
+      "upload": "Image uploaded successfully."
+    },
+    "error": {
+      "signIn": "Failed to sign in please try again.",
+      "addUser": "Failed to add the user.",
+      "updateUser": "Failed to save the user.",
+      "deleteUser": "Failed to delete the user.",
+      "resetPassword": "Failed to reset the password.",
+      "requestResetPassword": "Failed to send the link.",
+      "upload": "Failed to upload the image."
+    },
+    "fallback": {
+      "4xx": {
+        "title": "Client error!",
+        "description": "The error seems to have been caused by you."
+      },
+      "5xx": {
+        "title": "Server error!",
+        "description": "The server encountered an error or is unable to perform the request."
+      },
+      "404": {
+        "title": "Not found!",
+        "description": "We did our best but couldn't find what you requested."
+      }
+    }
+  }
+}

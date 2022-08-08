@@ -1,0 +1,120 @@
+{
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "passwordsDoNotMatch": "كلمة المرور غير مطابقة",
+    "email": "عنوان البريد الإلكتروني غير صالح"
+  },
+  "labels": {
+    "home": "الرئيسية",
+    "signInToYourAccount": "تسجيل الدخول إلى حسابك",
+    "provideYourCredentialsBelow": "قدم بيانات الاعتماد الخاصة بك أدناه",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "signIn": "تسجيل الدخول",
+    "profile": "ملفي الشخصي",
+    "settings": "اعدادات",
+    "signOut": "تسجيل الخروج",
+    "search": "بحث",
+    "newResource_male": "إضافة",
+    "newResource_female": "إضافة",
+    "resourcesList": "قائمة ال{{resources}}",
+    "name": "إسم",
+    "rowsSelected_one": "تم تحديد صف واحد",
+    "rowsSelected_two": "تم تحديد صفين",
+    "rowsSelected_few": "تم تحديد {{count}} صفوف",
+    "rowsSelected_many": "تم تحديد {{count}} صفًا",
+    "rowsSelected_other": "تم تحديد {{count}} صفًا",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إضافة",
+    "editResource": "تعديل",
+    "save": "حفظ",
+    "pageNotFound": "الصفحة غير موجودة",
+    "goBackToPreviousPage": "عد للصفحة السابقة",
+    "user_one": "مستخدم",
+    "user_other": "مستخدمون",
+    "administration_one": "الادارة",
+    "administration_other": "الادارات",
+    "firstName": "الإسم الشخصي",
+    "lastName": "الإسم العائلي",
+    "activated_male": "مفعل",
+    "activated_female": "مفعلة",
+    "banned_male": "محظور",
+    "banned_female": "محظورة",
+    "status": "حالة",
+    "authority_one": "سلطة",
+    "authority_other": "سلطات",
+    "admin_one": "مسؤول",
+    "admin_other": "مسؤولين",
+    "email": "البريد الإلكتروني",
+    "language_one": "اللغة",
+    "language_other": "اللغات",
+    "enLangKey": "الإنجليزية",
+    "frLangKey": "الفرنسية",
+    "arLangKey": "العربية",
+    "allowed_male": "مسموح به",
+    "allowed_female": "مسموح بها",
+    "maxSizeOf": "أقصى حجم {{size}}",
+    "change": "تغيير",
+    "upload": "تحميل",
+    "newPassword": "كلمة المرور الجديدة",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "resetYourPassword": "إعادة تعيين كلمة المرور الخاصة بك",
+    "provideYourNewPasswordBelow": "أدخل كلمة المرور الجديدة أدناه",
+    "passwordConfirmation": "تأكيد كلمة المرور",
+    "send": "ارسل",
+    "forgotYourPasswordQuestion": "نسيت كلمة المرور؟",
+    "checkYourInbox": "تحقق من بريدك الوارد"
+  },
+  "texts": {
+    "foolProgrammersQuote": "يمكن لأي أحمق كتابة رمز يمكن للكمبيوتر فهمه. يكتب المبرمجون الجيدون التعليمات البرمجية التي يمكن للبشر فهمها.",
+    "sorryPageNotFound": "عذرا ، الصفحة غير موجودة!",
+    "sorryWeCouldNotFindPage": "معذرةً ، لم نتمكن من العثور على الصفحة التي تبحث عنها. ربما أخطأت في كتابة العنوان؟ تأكد من التحقق من التهجئة.",
+    "areYouSureAboutThis": "هل أنت متأكد من هذا؟",
+    "undoneActionWarning": "أنت على بعد خطوة واحدة من تنفيذ إجراء لا يمكن التراجع عنه.",
+    "nothingToDisplay": "لا يوجد شيء لعرضه!",
+    "couldNotConnectMakeSureConnectedToInternet": "لم نتمكن من الاتصال بالخادم. تأكد من أنك متصل بالإنترنت.",
+    "noResult": "لا توجد نتيجة!",
+    "searchDidNoMatchAnyRecords": "بحثك لم يطابق أي سجلات.",
+    "dataTableIsEmpty": "جدول بيانات فارغ!",
+    "nothingToDisplayTryAdding": "لا يوجد شيء لعرضه لهذا الكيان. حاول إضافة سجل جديد.",
+    "bannedUserCanNotSignIn": "لا يمكن للمستخدم المحظور تسجيل الدخول.",
+    "pleaseEnterEmailAssociatedWeWillEmailYou": "يرجى إدخال عنوان البريد الإلكتروني المرتبط بحسابك وسنرسل لك عبر البريد الإلكتروني رابطًا لإعادة تعيين كلمة المرور الخاصة بك.",
+    "ifYouHaveNotReceivedCheckSpamOrResend": "إذا لم تتلق أي شيء ، يرجى التحقق من البريد العشوائي أو <1>إعادة إرسال الرابط مرة أخرى.</1>"
+  },
+  "http": {
+    "success": {
+      "signIn": "مرحبًا بعودتك!",
+      "addUser": "تمت إضافة المستخدم بنجاح.",
+      "updateUser": "تم حفظ المستخدم بنجاح.",
+      "deleteUser": "تم حذف المستخدم بنجاح.",
+      "resetPassword": "تمت إعادة تعيين كلمة المرور بنجاح.",
+      "requestResetPassword": "تم ارسال الرابط."
+    },
+    "error": {
+      "signIn": "فشل في تسجيل الدخول يرجى المحاولة مرة أخرى.",
+      "addUser": "فشل إضافة المستخدم.",
+      "updateUser": "فشل حفظ المستخدم.",
+      "deleteUser": "فشل حذف المستخدم.",
+      "resetPassword": "فشل إعادة تعيين كلمة المرور.",
+      "requestResetPassword": "فشل ارسال الرابط."
+    },
+    "fallback": {
+      "4xx": {
+        "title": "خطأ في العميل!",
+        "description": "يبدو أنك أنت من تسبب في الخطأ."
+      },
+      "5xx": {
+        "title": "خطأ في الخادم!",
+        "description": "واجه الخادم خطأ أو أنه غير قادر على تنفيذ الطلب."
+      },
+      "404": {
+        "title": "غير موجود!",
+        "description": "لقد بذلنا قصارى جهدنا ولكن لم نتمكن من العثور على ما طلبته."
+      }
+    }
+  }
+}

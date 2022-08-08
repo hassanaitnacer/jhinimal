@@ -1,0 +1,118 @@
+{
+  "validation": {
+    "required": "Ce champ est requis",
+    "passwordsDoNotMatch": "Les mots de passe ne correspondent pas",
+    "email": "Adresse email n'est pas valide"
+  },
+  "labels": {
+    "home": "Accueil",
+    "signInToYourAccount": "Connectez-vous à votre compte",
+    "provideYourCredentialsBelow": "Indiquez vos informations d'identification ci-dessous",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "rememberMe": "Souvenez-vous de moi",
+    "signIn": "Se connecter",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "signOut": "Se déconnecter",
+    "search": "Rechercher",
+    "newResource_male": "Ajouter",
+    "newResource_female": "Ajouter",
+    "resourcesList": "Liste des {{resources}}",
+    "name": "Nom",
+    "rowsSelected_one": "Une ligne sélectionnée",
+    "rowsSelected_other": "{{count}} lignes sélectionnées",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "create": "Créer",
+    "editResource": "Modifier",
+    "save": "Sauvegarder",
+    "pageNotFound": "Page est introuvable",
+    "goBackToPreviousPage": "Retournez",
+    "user_one": "Utilisateur",
+    "user_other": "Utilisateurs",
+    "administration_one": "Administration",
+    "administration_other": "Administrations",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "activated_male": "Activé",
+    "activated_female": "Activée",
+    "banned_male": "Banni",
+    "banned_female": "Bannie",
+    "status": "Statut",
+    "authority_one": "Autorité",
+    "authority_other": "Autorités",
+    "admin_one": "Administrateur",
+    "admin_other": "Administrateurs",
+    "email": "E-mail",
+    "language_one": "Langue",
+    "language_other": "Langues",
+    "enLangKey": "Anglais",
+    "frLangKey": "Français",
+    "arLangKey": "Arabe",
+    "allowed_male": "Autorisé",
+    "allowed_female": "Autorisée",
+    "maxSizeOf": "Taille maximale de {{size}}",
+    "change": "Changer",
+    "upload": "Télécharger",
+    "newPassword": "Nouveau mot de passe",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "resetYourPassword": "Réinitialiser votre mot de passe",
+    "provideYourNewPasswordBelow": "Indiquez votre nouveau mot de passe ci-dessous",
+    "passwordConfirmation": "Confirmation du mot de passe",
+    "send": "Envoyer",
+    "forgotYourPasswordQuestion": "Mot de passe oublié?",
+    "pleaseEnterEmailAssociatedWeWillEmailYou": "Veuillez saisir l'adresse e-mail associée à votre compte et nous vous enverrons par e-mail un lien pour réinitialiser votre mot de passe.",
+    "checkYourInbox": "Vérifiez votre boîte de réception"
+  },
+  "texts": {
+    "foolProgrammersQuote": "N'importe quel imbécile peut écrire du code qu'un ordinateur peut comprendre. Les bons programmeurs écrivent du code que les humains peuvent comprendre.",
+    "sorryPageNotFound": "Désolé, la page est introuvable!",
+    "sorryWeCouldNotFindPage": "Désolé, nous n'avons pas trouvé la page que vous recherchez. Peut-être avez-vous mal tapé l'URL ? Assurez-vous de vérifier votre orthographe.",
+    "areYouSureAboutThis": "Es-tu sûr de ça?",
+    "undoneActionWarning": "Vous êtes à un pas d'effectuer une action qui ne peut pas être annulée.",
+    "nothingToDisplay": "Rien à afficher!",
+    "couldNotConnectMakeSureConnectedToInternet": "Nous n'avons pas pu nous connecter au serveur. Assurez-vous que vous êtes connecté à Internet.",
+    "noResult": "Aucun résultat!",
+    "searchDidNoMatchAnyRecords": "Votre recherche ne correspond à aucun enregistrement.",
+    "dataTableIsEmpty": "Table de données vide!",
+    "nothingToDisplayTryAdding": "Il n'y a rien à afficher pour cette entité. Essayez d'ajouter un nouvel enregistrement.",
+    "bannedUserCanNotSignIn": "Appliquer l'interdiction de compte.",
+    "pleaseEnterEmailAssociatedWeWillEmailYou": "Veuillez saisir l'adresse e-mail associée à votre compte et nous vous enverrons par e-mail un lien pour réinitialiser votre mot de passe.",
+    "ifYouHaveNotReceivedCheckSpamOrResend": "Si vous n'avez rien reçu, veuillez vérifier les spams ou <1>renvoyer le lien à nouveau.</1>"
+  },
+  "http": {
+    "success": {
+      "signIn": "Content de te revoir!",
+      "addUser": "Utilisateur a été ajouté avec succès.",
+      "updateUser": "Utilisateur a été enregistré avec succès.",
+      "deleteUser": "Utilisateur a été supprimé avec succès.",
+      "resetPassword": "Mot de passe a été réinitialisé avec succès.",
+      "requestResetPassword": "Lien a été envoyé avec succès."
+    },
+    "error": {
+      "signIn": "Échec de la connexion, veuillez réessayer.",
+      "addUser": "Échec de l'ajout d'utilisateur.",
+      "updateUser": "Échec de l'enregistrement d'utilisateur.",
+      "deleteUser": "Échec de la suppression d'utilisateur.",
+      "resetPassword": "Échec de la réinitialisation du mot de passe.",
+      "requestResetPassword": "Échec de l'envoi du lien."
+    },
+    "fallback": {
+      "4xx": {
+        "title": "Erreur du client!",
+        "description": "L'erreur semble avoir été causée par vous."
+      },
+      "5xx": {
+        "title": "Erreur du serveur!",
+        "description": "Le serveur a rencontré une erreur ou n'est pas en mesure d'exécuter la requête."
+      },
+      "404": {
+        "title": "Introuvable!",
+        "description": "Nous avons fait de notre mieux mais n'avons pas trouvé ce que vous avez demandé."
+      }
+    }
+  }
+}
